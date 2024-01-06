@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 public class ProductsService {
 
     public Object findProducts(){
+        //this is product service
         return "productos.";
 
     }
