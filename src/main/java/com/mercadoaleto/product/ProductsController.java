@@ -13,6 +13,7 @@ public class ProductsController {
 
     @GetMapping
     public Object findProducts(){
+        //this returns products
         return this.productsService.findProducts();
     }
 
